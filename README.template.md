@@ -8,7 +8,7 @@ This project uses Lean to verify {{THEOREM_LABELS_AND_NUMBERS_FROM_THE_PAPERS}}.
 
 ## Mathematical statements
 
-<!-- Replace the placeholders with the papers’ original labels and numbers, wording, and mathematical notation. State only the definitions needed for the theorems. Use one block per theorem and identify its source when citing multiple papers. Remove this comment from the finished README. -->
+<!-- Replace the placeholders with the papers’ original labels and numbers, wording, and mathematical notation. State only the definitions necessary to state the theorems. Use one block per theorem and identify its source when citing multiple papers. Remove this comment from the finished README. -->
 
 {{DEFINITIONS_IN_THE_PAPERS_WORDING_AND_NOTATION}}
 
