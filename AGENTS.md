@@ -31,3 +31,10 @@ After verification, generate `README.md` from `README.template.md`. Name the for
 Then ask for the formalization authors’ names. In `formalization.yaml`, use the repository name for `project.name` and the author names for both `project.authors` and `project.responsible_maintainers`. Fill the description with what the theorems establish, list the user’s papers in `sources`, and choose arXiv subject codes for `classification.arxiv`. Fill only the placeholders in `formalization.yaml`. Keep all other fields and wording unchanged, including the entire `automation` and `review` sections. Do not add project-specific notes there.
 
 Return the repository with the approved `Challenge.lean`, verified `Solution.lean` and supporting Lean files, project configuration, and completed `README.md` and `formalization.yaml`. Leave out `README.template.md`, `AGENTS.md`, temporary notes, logs, caches, and intermediate files.
+
+### Publishing to GitHub
+
+1. Open GitHub’s **New repository** form and fill in **Repository name** with the name the user chose. Leave the README, `.gitignore`, and license options unset. Ask the user to confirm the owner and visibility and click **Create repository**. If you cannot open the form, give the user a link with the repository name prefilled and ask them to complete it.
+2. If the GitHub App does not already have access to the new repository, ask the user to open its settings. Under **Repository access**, use **Only select repositories**, add the new repository without removing any existing selections, and click **Save**.
+
+Once you have access, push the verified repository and give the user its GitHub link. If no GitHub connection is available, return the verified repository and give the user instructions to push it manually.
