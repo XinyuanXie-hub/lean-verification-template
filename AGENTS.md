@@ -6,7 +6,7 @@ Please formalize the theorems requested by the user from the corresponding paper
 
 Set up a new project with this repository’s files and directory structure. Use Lean’s module system in every Lean source file. In `Challenge.lean`, import only Mathlib or its submodules. Write the precise definitions needed to state the theorems the user wants to formalize. Then state each theorem in Lean in `Challenge.lean` exactly as it is stated in the paper, keeping its label and number, and give it a `by sorry` proof. Set `theorem_names` in `comparator.json` to the corresponding Lean theorem names, including any namespaces, and leave the other fields unchanged.
 
-Run `lake build Challenge`, then ask the user to review `Challenge.lean` and confirm it matches the theorems they want. Once they confirm it, keep `Challenge.lean` and `comparator.json` fixed for the rest of the task. Then suggest a repository name and wait for the user to accept it or provide another. The final name must be valid on GitHub and as a Lean identifier.
+Run `lake build Challenge`, then ask the user to review `Challenge.lean` and confirm it matches the theorems they want. Once they confirm it, keep `Challenge.lean` and `comparator.json` fixed for the rest of the task. Then suggest a repository name and wait for the user to accept it or provide another. The final name must be valid on GitHub and as a Lean identifier. If the chosen repository name differs from the namespace in `Challenge.lean`, rename the namespace to match and update the namespace prefix of the corresponding entries in `theorem_names` in `comparator.json`.
 
 ## Formalization
 
