@@ -1,6 +1,6 @@
 # {{PROJECT_TITLE}}
 
-This project uses Lean to verify {{THEOREM_LABELS_AND_NUMBERS_FROM_THE_PAPERS}}.
+This project uses Lean to verify {{THEOREM_LABELS_AND_NUMBERS_FROM_THE_PAPERS}} from the following paper:
 
 > {{AUTHORS}}, *{{PAPER_TITLE}}*, [{{REFERENCE}}]({{PAPER_URL}}).
 
