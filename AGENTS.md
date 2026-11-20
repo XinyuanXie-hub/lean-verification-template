@@ -10,7 +10,7 @@ Run `lake build Challenge`, then ask the user to review `Challenge.lean` and con
 
 ## Formalization
 
-Once the user chooses a repository name, rename `Template/` to that name. In `lakefile.toml`, replace only `name = "Template"` in the corresponding `[[lean_lib]]` entry with the chosen name, then keep `lakefile.toml` unchanged. Find a `Solution.lean` that passes Comparator against `Challenge.lean`, with all supporting Lean files in the renamed folder and imports that use their new module names.
+Once the user chooses a repository name, rename `Template/` to that name. In `lakefile.toml`, replace only `name = "Template"` in the corresponding `[[lean_lib]]` entry with the chosen name, then keep `lakefile.toml` unchanged. The central goal for rest of the task is to find a `Solution.lean` that passes Comparator against `Challenge.lean`, with all supporting Lean files in the renamed folder and imports that use their new module names.
 
 ### Strategy
 
